@@ -1,6 +1,6 @@
 <h1>Securing a Cloud Application</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+
 
 <h2>Description</h2>
 Build, host, and design web application that incorporates topics from the Networking, Cloud, and Web Development.  Will secure the web application with SSL certificates incorporating topics from the Cryptography and Terminal lessons.  Protect the web application with Azure’s security features incorporating topics from the Network Security lesson.
@@ -16,7 +16,19 @@ Build, host, and design web application that incorporates topics from the Networ
 
 - <b>Windows 10</b> (21H2)
 
-<h2>Program walk-through:</h2>
+<h2 align="center">Web Application</h2>
+<p>Enter the URL for the web application that you created:
+<br>
+[   https://brunocyberblogs.xyz/
+
+<br>
+   https://giordanocyber.azurewebsites.net        ]
+<br>
+ Websites have discontinue due to expiration!!
+ <br>
+
+Paste screenshots of your website created (Be sure to include your blog posts):
+</p>
 
 <p align="center">
 Launch the utility: <br/>
@@ -46,6 +58,18 @@ Sanitization complete:  <br/>
 Observe the wiped disk:  <br/>
 <img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+<h2>Day 1 Questions</h2>
+<h3>General Questions</h3>
+<p>What option did you select for your domain (Azure free domain,  GoDaddy domain)?
+<br>
+[   GoDaddy      ]
+<br>
+
+What is your domain name?
+<br>
+[   https://brunocyberblogs.xyz/    ]
+<br>
 
 <!--
  ```diff
