@@ -54,8 +54,12 @@ Sanitization complete:  <br/>
 <img src="https://imgur.com/hxmPKJO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+Observe the wiped disk2:  <br/>
+<img src="https://imgur.com/loMvsl5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/ErCAFVq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 ##Day 1 Questions
