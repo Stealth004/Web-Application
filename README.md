@@ -38,27 +38,27 @@ Paste screenshots of your website created (Be sure to include your blog posts):
 <img src="https://imgur.com/dyGmPU0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
+<br/>
 <img src="https://imgur.com/4VRPevq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
+<br/>
 <img src="https://imgur.com/4OsCh36.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
+<br/>
 <img src="https://imgur.com/dsEDveA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
+<br/>
 <img src="https://imgur.com/hxmPKJO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk2:  <br/>
+<br/>
 <img src="https://imgur.com/loMvsl5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
+<br/>
 <img src="https://imgur.com/ErCAFVq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
