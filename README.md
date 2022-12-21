@@ -5,13 +5,17 @@
 
 <h2>Languages and Utilities Used</h2>
 <ul>
-  <li>PowerShell</li>
-  <li>Diskpart</li>
+  <li>Azure Cloud</li>
+  <li>Domain - GoDaddy</li>
+  <li>Docker Container</li>
+  <li>Azure Cloud Shell</li>
+  <li>HTML</li>
+  <li>CSS</li>
 </ul>
 
 <h2>Environments Used</h2>
 <ul>
-  <li>Windows 10 (21H2)</li>
+  <li>Microsoft Azure</li>
 </ul>
 
 <h2>Web Application</h2>
