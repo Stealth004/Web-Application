@@ -273,14 +273,22 @@ No, if someone in Canada uses VPN, they would be able to access the website.
 
 
 <h3>Include screenshots below to demonstrate that your web app has the following: </h3>
-
 <ul>
 <li>
-a.	Azure Front Door enabled
+Azure Front Door enabled
 </li>
 </ul>
-
-
+<p align="center"><br/>
+<img src="https://imgur.com/mO2LGvZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  </p>
+<ul>
+<li>
+Azure Front Door enabled
+</li>
+</ul>
+  <p align="center"><br/>
+<img src="https://imgur.com/dyGmPU0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ </p>
 
 
 
