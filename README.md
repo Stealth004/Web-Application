@@ -167,7 +167,6 @@ Paste screenshots of your website created (Be sure to include your blog posts):
 <!-- Add questions and answers here -->
 
 <!--Break  -->
-<h3>Cloud Questions</h3>
 <ol>
   <li>
     <p>What is a cloud tenant?</p>
@@ -192,86 +191,105 @@ Paste screenshots of your website created (Be sure to include your blog posts):
 </ol>
 
 <!--BREAK of this -->
+
 <h3>Cryptography Questions</h3>
 <ol>
-  <li>
-    <p>What are the advantages of a self-signed certificate?</p>
-    <ul>
-      <li>Self-signed certificates are free. They are suitable for internal network websites and development/testing environments. Encryption and Decryption of the data is done with the same ciphers used by paid SSL certificates.</li>
-    </ul>
+<li>
+<p>What are the advantages of a self-signed certificate?</p>
+<ul>
+  <li>Self-signed certificates are free.</li>
+  <li>They are suitable for internal network websites and development/testing environments.</li>
+  <li>Encryption and Decryption of the data is done with the same ciphers used by paid SSL certificates.</li>
+</ul>
   </li>
   <li>
-    <p>What are the disadvantages of a self-signed certificate?</p>
-    <ul>
-      <li>Browsers and Operating Systems do not trust self-signed certificates since a publicly trusted CA does not sign them. Browsers would not show the green lock symbol or other visual indicators of trust.</li>
-      <li>Attackers can generate self-signed certificates, which can be used for man in the middle (MITM) attacks, leaving users vulnerable to data thief and other forms of cyber-attacks.</li>
-    </ul>
+<p>What are the disadvantages of a self-signed certificate?</p>
+<ul>
+  <li>Browsers and Operating Systems do not trust self-signed certificates since a publicly trusted CA does not sign them. Browsers would not show the green lock symbol or other visual indicators of trust</li>
+  <li>Attackers can generate self-signed certificates, which can be used for man in the middle (MITM) attacks, leaving users vulnerable to data thief and other forms of cyber-attacks.</li>
+</ul>
   </li>
   <li>
-    <p>What is a wildcard certificate?</p>
-    <ul>
-      <li>Wildcard certificate is a digital certificate that is applied to a domain and all its subdomains. Wildcard notation consists of an asterisk and a period before the domain name. Secure Sockets Layer (SSL) certificates often use wildcards to extend SSL encryption to subdomains.</li>
-    </ul>
+<p>What is a wildcard certificate?</p>
+<ul>
+  <li>Wildcard certificate is a digital certificate that is applied to a domain and all its subdomains. Wildcard notation consists of an asterisk and a period before the domain name. Secure Sockets Layer (SSL) certificates often use wildcards to extend SSL encryption to subdomains.</li>
+</ul>
   </li>
   <li>
-    <p>When binding a certificate to your website, Azure only provides TLS versions 1.0, 1.1, and 1.2. Explain why SSL 3.0 isn’t provided.</p>
-    <ul>
-      <li>Azure Security SSL 3.0 Update, starting December 1, 2014 in response to an industry wide vulnerability in SSL 3.0, commonly known as POODLE. SSL 3.0 has been disabled across Azure Websites.</li>
-      <li>Azure Websites has disabled SSL 3.0 for all sites by default to protect our customers from the vulnerability mentioned before. Customers no longer need to take any action to disable SSL 3.0 in Azure Websites.</li>
-    </ul>
+<p>When binding a certificate to your website, Azure only provides TLS versions 1.0, 1.1, and 1.2. Explain why SSL 3.0 isn’t provided.</p>
+<ul>
+  <li>Azure Security SSL 3.0 Update, starting December 1, 2014 in response to an industry wide vulnerability in SSL 3.0, commonly known as POODLE. SSL 3.0 has been disabled across Azure Websites.</li>
+  <li>Azure Websites has disabled SSL 3.0 for all sites by default to protect our customers from the vulnerability mentioned before. Customers no longer need to take any action to disable SSL 3.0 in Azure Websites.</li>
+</ul>
   </li>
   <li>
-    <p>After completing the Day 2 activities, view your SSL certificate and answer the following questions:</p>
-    <ol>
-      <li
-
-<!--BREAK of PAGESSS -->
+<!-- <p>After completing the Day 2 activities, view your SSL certificate and answer the following questions:</p> -->
+<p>Is your browser returning an error for your SSL certificate? Why or why not?</p>
+<ul>
+  <li>No, the browser has a secure lock. The connection is secure. The certificate is issued by a trusted name Microsoft Azure TLS Issuing CA 01. Which is a trusted SSL certificate.</li>
+</ul>
+  </li>
+  <li>
+<p>What is the validity of your certificate (date range)?</p>
+<ul>
+  <li>March 14, 2022 to March 9, 2023</li>
+</ul>
+  </li>
+  <li>
+<p>Do you have an intermediate certificate? If so, what is it?</p>
+<ul>
+  <li>Yes, Microsoft Azure TLS Issuing CA 01</li>
+</ul>
+  </li>
+  <li>
+<p>Do you have a root certificate? If so, what is it?</p>
+<ul>
+  <li>DigiCert Global Root G2</li>
+</ul>
+  </li>
+  <li>
+<p>Does your browser have the root certificate in its root store?</p>
+<ul>
+  <li>Yes</li>
+</ul>
+  </li>
+  </ol>
+<p>List one other root CA in your browser’s root store.</
+<!--BREAKing -->
+  
 <h2>Day 3 Questions</h2>
 
 <h3>Cloud Security Questions</h3>
 
-<p>1. What are the similarities and differences between Azure Web Application Gateway and Azure Front Door?</p>
-<p>[   The similarities of both are 1. Both reside in front of your web application in order to protect it.  2.  They work on the Application Layer (7) of the OSI model.  3.  Their primary solution is a load balancer.  4.  They can incorporate a web application firewall (WAF) to protect against web vulnerability attacks.  5.  They have additional features such as URL path-based routing and SSL/TLS termination.<br> Differences are 1.  The Web Application Gateway is more regional, to protect a web application in a single region in your cloud.  2.  The Azure Front Door is more global and is better suited when you have a variety of regions in a cloud environment.  ]</p>
-
-<p>2. A feature of the Web Application Gateway and Front Door is “SSL Offloading.” What is SSL offloading? What are its benefits?</p>
-<p>[   (Secure Sockets Layer) SSL offloading is the process of removing the SSL based encryption from incoming traffic to relieve a web server of the processing burden of decrypting and /or encrypting traffic sent via SSL.  The benefit of SSL offloading relieves a web server of the processing burden of encrypting and decrypting traffic sent via SSL.]</p>
-
-<p>3. What OSI layer does a WAF work on?</p>
-<p>[    Web Application firewall (WAF) is a protocol of layer 7 defense (in the OSI model), and is not designed to defend against all types of attacks. This method of attack mitigation is usually part of a suite of tools which together create a holistic defense against a range of attack vectors.  ]</p>
-
-<p>4. Select one of the WAF managed rules (e.g., directory traversal, SQL injection, etc.), and define it.</p>
-<p>[    The WAF managed Default Rule Set (DRS) includes rules against threat categories.  SQL injection is a code injection technique
-<h2>Day 3 Questions</h2>
-
-<h3>Cloud Security Questions</h3>
-
-<p>1. What are the similarities and differences between Azure Web Application Gateway and Azure Front Door?</p>
+<p>
+1. What are the similarities and differences between Azure Web Application Gateway and Azure Front Door?
 <br>
-<p>The similarities of both are:</p>
+[   The similarities of both are 
 <ul>
   <li>Both reside in front of your web application in order to protect it.</li>
   <li>They work on the Application Layer (7) of the OSI model.</li>
   <li>Their primary solution is a load balancer.</li>
   <li>They can incorporate a web application firewall (WAF) to protect against web vulnerability attacks.</li>
   <li>They have additional features such as URL path-based routing and SSL/TLS termination.</li>
-</ul>
-
-<p>Differences are:</p>
+</ul> 
+Differences are 
 <ul>
   <li>The Web Application Gateway is more regional, to protect a web application in a single region in your cloud.</li>
   <li>The Azure Front Door is more global and is better suited when you have a variety of regions in a cloud environment.</li>
 </ul>
-
-<p>2. A feature of the Web Application Gateway and Front Door is “SSL Offloading.” What is SSL offloading? What are its benefits?</p>
-<br>
-<p>(Secure Sockets Layer) SSL offloading is the process of removing the SSL based encryption from incoming traffic to relieve a web server of the processing burden of decrypting and /or encrypting traffic sent via SSL. The benefit of SSL offloading relieves a web server of the processing burden of encrypting and decrypting traffic sent via SSL.</p>
-
-<br>
-<p>3. What OSI layer does a WAF work on?</p>
-<br>
-<p>Web Application firewall (WAF) is a protocol of layer 7 defense (in the OSI model), and is not designed to defend against all types of attacks. This
-
+]
 </p>
+
+<p>
+2. A feature of the Web Application Gateway and Front Door is “SSL Offloading.” What is SSL offloading? What are its benefits?
+<br>
+[   (Secure Sockets Layer) SSL offloading is the process of removing the SSL based encryption from incoming traffic to relieve a web server of the processing burden of decrypting and /or encrypting traffic sent via SSL. The benefit of SSL offloading relieves a web server of the processing burden of encrypting and decrypting traffic sent via SSL.]
+</p>
+
+
+
+
+
 
 
 
