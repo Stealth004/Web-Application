@@ -279,7 +279,7 @@ Azure Front Door enabled
 </li>
 </ul>
 <p align="center"><br/>
-<img src="https://imgur.com/mO2LGvZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/9za5br6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   </p>
 <ul>
 <li>
