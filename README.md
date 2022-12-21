@@ -286,6 +286,21 @@ Differences are
 [   (Secure Sockets Layer) SSL offloading is the process of removing the SSL based encryption from incoming traffic to relieve a web server of the processing burden of decrypting and /or encrypting traffic sent via SSL. The benefit of SSL offloading relieves a web server of the processing burden of encrypting and decrypting traffic sent via SSL.]
 </p>
 
+<!-- BREAKING -->
+<h2>Day 3 Questions</h2>
+
+<h3>Cloud Security Questions</h3>
+
+<strong>1. What are the similarities and differences between Azure Web Application Gateway and Azure Front Door?</strong>
+<br>
+[   The similarities of both are 1. Both reside in front of your web application in order to protect it.  2.  They work on the Application Layer (7) of the OSI model.  3.  Their primary solution is a load balancer.  4.  They can incorporate a web application firewall (WAF) to protect against web vulnerability attacks.  5.  They have additional features such as URL path-based routing and SSL/TLS termination.
+<br> 
+Differences are 1.  The Web Application Gateway is more regional, to protect a web application in a single region in your cloud.  2.  The Azure Front Door is more global and is better suited when you have a variety of regions in a cloud environment.  ]
+<br>
+
+<strong>2. A feature of the Web Application Gateway and Front Door is “SSL Offloading.” What is SSL offloading? What are its benefits?</strong>
+<br>
+[   (Secure Sockets Layer) SSL offloading is the process of removing the SSL based encryption from incoming traffic to relieve a web server of the processing burden of decrypting and /or encrypting traffic sent via SSL.  The benefit of SSL offloading relieves a web server of the processing burden of encrypting and decrypting traffic sent via SSL.]
 
 
 
