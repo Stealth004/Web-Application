@@ -25,41 +25,6 @@
 <h3>Paste screenshots of your website created (Be sure to include your blog posts):</h3>
 <!-- Insert images here -->
 
-
-<!--
-<!--- BREAK --><!--
-<h1>Securing a Cloud Application</h1>
-
-
-
-<h2>Description</h2>
-Build, host, and design web application that incorporates topics from the Networking, Cloud, and Web Development.  Will secure the web application with SSL certificates incorporating topics from the Cryptography and Terminal lessons.  Protect the web application with Azure’s security features incorporating topics from the Network Security lesson.
-<br />
-
-
-<h2>Languages and Utilities Used</h2>
-
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
-
-<h2>Environments Used </h2>
-
-- <b>Windows 10</b> (21H2)
-
-<h2 align="center">Web Application</h2>
-<p>Enter the URL for the web application that you created:
-<br>
-[   https://brunocyberblogs.xyz/
-
-<br>
-   https://giordanocyber.azurewebsites.net        ]
-<br>
- Websites have discontinue due to expiration!!
- <br>
-
-Paste screenshots of your website created (Be sure to include your blog posts):
-</p>   --> 
-
 <p align="center"><br/>
 <img src="https://imgur.com/mO2LGvZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
@@ -257,52 +222,44 @@ Paste screenshots of your website created (Be sure to include your blog posts):
 <p>List one other root CA in your browser’s root store.</
 <!--BREAKing -->
   
-<h2>Day 3 Questions</h2>
+<html>
+<head>
+  <title>Cloud Security Questions</title>
+  </head>
+<body>
+  <h1>Day 3 Questions</h1>
 
-<h3>Cloud Security Questions</h3>
+  <h2>Cloud Security Questions</h2>
 
-<p>
-<strong>1. What are the similarities and differences between Azure Web Application Gateway and Azure Front Door?</strong>
-<br>
-The similarities of both are 
-<ul>
-  <li>Both reside in front of your web application in order to protect it.</li>
-  <li>They work on the Application Layer (7) of the OSI model.</li>
-  <li>Their primary solution is a load balancer.</li>
-  <li>They can incorporate a web application firewall (WAF) to protect against web vulnerability attacks.</li>
-  <li>They have additional features such as URL path-based routing and SSL/TLS termination.</li>
-</ul> 
-Differences are 
-<ul>
-  <li>The Web Application Gateway is more regional, to protect a web application in a single region in your cloud.</li>
-  <li>The Azure Front Door is more global and is better suited when you have a variety of regions in a cloud environment.</li>
-</ul>
+  <h3>What are the similarities and differences between Azure Web Application Gateway and Azure Front Door?</h3>
+  <ul>
+    <li>Similarities:
+      <ul>
+        <li>Both reside in front of your web application in order to protect it.</li>
+        <li>They work on the Application Layer (7) of the OSI model.</li>
+        <li>Their primary solution is a load balancer.</li>
+        <li>They can incorporate a web application firewall (WAF) to protect against web vulnerability attacks.</li>
+        <li>They have additional features such as URL path-based routing and SSL/TLS termination.</li>
+      </ul>
+    </li>
+    <li>Differences:
+      <ul>
+        <li>The Web Application Gateway is more regional, to protect a web application in a single region in your cloud.</li>
+        <li>The Azure Front Door is more global and is better suited when you have a variety of regions in a cloud environment.</li>
+      </ul>
+    </li>
+  </ul>
 
-</p>
+  <h3>A feature of the Web Application Gateway and Front Door is “SSL Offloading.” What is SSL offloading? What are its benefits?</h3>
+  <p>(Secure Sockets Layer) SSL offloading is the process of removing the SSL based encryption from incoming traffic to relieve a web server of the processing burden of decrypting and /or encrypting traffic sent via SSL. The benefit of SSL offloading relieves a web server of the processing burden of encrypting and decrypting traffic sent via SSL.</p>
 
-<p>
-<strong>2. A feature of the Web Application Gateway and Front Door is “SSL Offloading.” What is SSL offloading? What are its benefits?</strong>
-<br>
-[   (Secure Sockets Layer) SSL offloading is the process of removing the SSL based encryption from incoming traffic to relieve a web server of the processing burden of decrypting and /or encrypting traffic sent via SSL. The benefit of SSL offloading relieves a web server of the processing burden of encrypting and decrypting traffic sent via SSL.]
-</p>
+  <h3>What OSI layer does a WAF work on?</h3>
+  <p>Web Application firewall (WAF) is a protocol of layer 7 defense (in the OSI model), and is not designed to defend against all types of attacks. This method of attack mitigation is usually part of a suite of tools which together create a holistic defense against a range of attack vectors.</p>
 
-<!-- BREAKING -->
-<h2>Day 3 Questions</h2>
+  <h3>Select one of the WAF managed rules (e.g., directory traversal, SQL injection, etc.), and define it.</h3>
+  <p>The WAF managed Default Rule Set (DRS) includes rules against threat categories. SQL injection is a code injection technique used to attack data driven applications, malicious SQL statements are inserted into an entry field for execution. Essentially SQLI is a common attack vector that uses malicious SQL code for backend database manipulation to access information that was not intended to be displayed.</p>
 
-<h3>Cloud Security Questions</h3>
-
-<strong>1. What are the similarities and differences between Azure Web Application Gateway and Azure Front Door?</strong>
-<br>
-[   The similarities of both are 1. Both reside in front of your web application in order to protect it.  2.  They work on the Application Layer (7) of the OSI model.  3.  Their primary solution is a load balancer.  4.  They can incorporate a web application firewall (WAF) to protect against web vulnerability attacks.  5.  They have additional features such as URL path-based routing and SSL/TLS termination.
-<br> 
-Differences are 1.  The Web Application Gateway is more regional, to protect a web application in a single region in your cloud.  2.  The Azure Front Door is more global and is better suited when you have a variety of regions in a cloud environment.  ]
-<br>
-
-<strong>2. A feature of the Web Application Gateway and Front Door is “SSL Offloading.” What is SSL offloading? What are its benefits?</strong>
-<br>
-[   (Secure Sockets Layer) SSL offloading is the process of removing the SSL based encryption from incoming traffic to relieve a web server of the processing burden of decrypting and /or encrypting traffic sent via SSL.  The benefit of SSL offloading relieves a web server of the processing burden of encrypting and decrypting traffic sent via SSL.]
-
-
+  <h3>Consider the rule that you selected. Could your website (as it is currently designed) be impacted by this vulnerability if Front
 
 
 
