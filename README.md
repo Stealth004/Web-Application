@@ -218,14 +218,16 @@
   <li>Yes</li>
 </ul>
   </li>
+  <li>
+<p>List one other root CA in your browser’s root store.</p>
+    <ul>
+      <li>Actalis Authentication Root CA</li>
+    </ul>
+  </li>
   </ol>
-<p>List one other root CA in your browser’s root store.</
 <!--BREAKing -->
   
 <html>
-<head>
-  <title>Cloud Security Questions</title>
-  </head>
 <body>
   <h1>Day 3 Questions</h1>
 
@@ -259,7 +261,30 @@
   <h3>Select one of the WAF managed rules (e.g., directory traversal, SQL injection, etc.), and define it.</h3>
   <p>The WAF managed Default Rule Set (DRS) includes rules against threat categories. SQL injection is a code injection technique used to attack data driven applications, malicious SQL statements are inserted into an entry field for execution. Essentially SQLI is a common attack vector that uses malicious SQL code for backend database manipulation to access information that was not intended to be displayed.</p>
 
-  <h3>Consider the rule that you selected. Could your website (as it is currently designed) be impacted by this vulnerability if Front
+<h3>Consider the rule that you selected. Could your website (as it is currently designed) be impacted by this vulnerability if Front wasn’t enabled?  Why or why not? </h3>
+<p>Yes, because SQL works as a query in the background for example login information being submitted via web.  The WAF has a variety of rules to protect against a wide range of SQL attacks. </p>
+<p>No, the network doesn’t have a sql database. </p>
+
+<h3>Hypothetically, say that you create a custom WAF rule to block all traffic from Canada. Does that mean that anyone who resides in Canada would not be able to access your website? Why or why not? </h3>
+
+<p>
+No, if someone in Canada uses VPN, they would be able to access the website.
+</p>
+
+
+<h3>Include screenshots below to demonstrate that your web app has the following: </h3>
+
+<ul>
+<li>
+a.	Azure Front Door enabled
+</li>
+</ul>
+
+
+
+
+
+
 
 
 
