@@ -262,9 +262,9 @@ Paste screenshots of your website created (Be sure to include your blog posts):
 <h3>Cloud Security Questions</h3>
 
 <p>
-1. What are the similarities and differences between Azure Web Application Gateway and Azure Front Door?
+<strong>1. What are the similarities and differences between Azure Web Application Gateway and Azure Front Door?</strong>
 <br>
-[   The similarities of both are 
+The similarities of both are 
 <ul>
   <li>Both reside in front of your web application in order to protect it.</li>
   <li>They work on the Application Layer (7) of the OSI model.</li>
@@ -277,11 +277,11 @@ Differences are
   <li>The Web Application Gateway is more regional, to protect a web application in a single region in your cloud.</li>
   <li>The Azure Front Door is more global and is better suited when you have a variety of regions in a cloud environment.</li>
 </ul>
-]
+
 </p>
 
 <p>
-2. A feature of the Web Application Gateway and Front Door is “SSL Offloading.” What is SSL offloading? What are its benefits?
+<strong>2. A feature of the Web Application Gateway and Front Door is “SSL Offloading.” What is SSL offloading? What are its benefits?</strong>
 <br>
 [   (Secure Sockets Layer) SSL offloading is the process of removing the SSL based encryption from incoming traffic to relieve a web server of the processing burden of decrypting and /or encrypting traffic sent via SSL. The benefit of SSL offloading relieves a web server of the processing burden of encrypting and decrypting traffic sent via SSL.]
 </p>
